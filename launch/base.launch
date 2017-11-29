@@ -1,0 +1,6 @@
+<launch>
+  <node name="serial_test" pkg="base_controller" type="serial_test" output="screen">
+　  <param name="serial_port" value="/dev/ttyUSB0"/>  #雷达连接的串口
+
+  </node>
+</launch>
